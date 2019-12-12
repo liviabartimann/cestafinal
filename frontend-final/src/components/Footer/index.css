@@ -1,0 +1,17 @@
+/* Estilização do Rodapé */
+
+.footer {
+  /* Margin-Top para que ele fique sempre a 10vh do final da página na posição absoluta */
+  margin-top: 90vh;
+  position: absolute;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/* Estilização do texto do Footer (tamanho da fonte, cor do texto e negrito na fonte */
+
+.footer-text {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}

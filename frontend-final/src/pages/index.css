@@ -1,0 +1,146 @@
+/* A medida vh é igual a 1/100 da altura da viewport. Então, por exemplo, 
+se a altura do navegador é 900px, 1vh equivale a 9px e, analogamente, 
+ se a largura da viewport é 750px, 1vw equivale a 7.5px. */
+
+/* CSS DAS PÁGINAS */
+
+.container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-logo {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background: white;
+  border-radius: 50%;
+  /* Sombreamento do elemento */
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  width: 50%;
+  height: 50%;
+}
+
+.page-identificator {
+  margin: 0;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-size: 26px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255)
+}
+
+.form {
+  width: 50vh;
+  height: 35vh;
+  margin: 0;
+  margin-top: 4vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.register {
+  height: 35vh;
+}
+
+.commerce {
+  height: 40vh;
+}
+
+/* Define o CSS para o placeholder (texto que vai dentro da input) */
+
+::-webkit-input-placeholder {
+  color: rgb(255, 255, 255);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.button-submit {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 4vh;
+  width: 30vh;
+  height: 5.5vh;
+  border: none;
+  background: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  border-radius: 2.75vh;
+  /* Sombreamento do elemento */
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.button-seta {
+  margin-left: 2vh;
+  width: 20px;
+  height: 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-style: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin: 0 5vh;
+  width: 25vh;
+  height: 5.5vh;
+  border: none;
+}
+
+/* CSS das Inputs */
+
+.input {
+  margin: 0;
+  width: 50vh;
+  height: 4vh;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: solid 1px rgb(255, 255, 255);
+  outline-color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.144);
+}
+
+.select {
+  padding: 0;
+  margin: 0;
+  width: 50vh;
+  height: 4vh;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: solid 1px rgb(255, 255, 255);
+  color: white
+}
+
+.link-stylist {
+  text-decoration: none;
+}
